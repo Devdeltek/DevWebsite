@@ -1,0 +1,45 @@
+    <%- include('partials/header.ejs') %>
+    <hr>
+    <nav>
+      <a href = "https://HW4.devindelaney.repl.co/"><b>Home</b></a>
+      <a href = "https://HW4.devindelaney.repl.co/java">Java</a>
+      <a href = "https://HW4.devindelaney.repl.co/python">Python</a>
+      <a id="currentTab" href = "https://HW4.devindelaney.repl.co/swift">Swift</a>
+    </nav>
+    <hr>
+    <div class="mainInfo">
+      <img class="inTextImg" src="imgs/swift.png" alt="Programming languages word map">
+      <p id="infoText">
+        Swift is a general purpose programming language developed by Apple. Swift was made to be a modern and easy to use language while keeping the ability to run with older C-type languages.
+      </p>
+      <div class="circles">
+        <div class="round">
+          <p>
+            Easy To Learn
+          </p>
+        </div>
+        <div class="round center">
+          <p>
+            Secure
+          </p>
+        </div>
+        <div class="round">
+          <p>
+            Open source
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>
+        References: 
+      </p>
+      <ul>
+        <li><a href ="https://pratheeshbennet.medium.com/some-keyword-swift-1ea2c4398504">https://pratheeshbennet.medium.com/some-keyword-swift-1ea2c4398504</a></li>
+        <li><a href ="https://en.wikipedia.org/wiki/Swift_(programming_language)">https://en.wikipedia.org/wiki/Swift_(programming_language)</a></li>
+      </ul>
+      <p><small><%=cat%></small></p>
+    </footer>
+  </body>
+</html>

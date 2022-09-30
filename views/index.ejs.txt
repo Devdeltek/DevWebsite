@@ -1,30 +1,31 @@
-<%- include("partials/head") %>
-
-
-<body>
-  <%var selected = 0;%>
-  <!--Make the heading same line -->
-  <div>
-    <header>
-      <div class="mainHeader">
-        <div class="pageTitle">
-          <h1>Home page</h1>
-        </div>
-
-        <%- include("partials/header") %>
-
-
-      </div>
-    </header>
-    <%- include("partials/nav") %>
-  </div>
-
-  <main>
-
-   </main>
-
-  <%- include("partials/footer")%>
-
-  <script src="/js/homeRecipeDisplay.js"></script>
-</body>
+    <%- include('partials/header.ejs') %>
+    <hr>
+    <nav>
+      <a id="currentTab" href = "https://HW4.devindelaney.repl.co/"><b>Home</b></a>
+      <a href = "https://HW4.devindelaney.repl.co/java">Java</a>
+      <a href = "https://HW4.devindelaney.repl.co/python">Python</a>
+      <a href = "https://HW4.devindelaney.repl.co/swift">Swift</a>
+    </nav>
+    <hr>
+    
+    <div class="mainInfo">
+      <img class="inTextImg" src="imgs/programmingLanguages.png" alt="Programming languages word map">
+      <p id="infoText">
+        Programming languages are a tool used to convert instructions written in a way humans can understand into binary that a computer can run. There are low level programming languages which run faster and offer more control over how the program runs, but are harder to understand. Because of this people use easier to understand higher level languages when they can.
+      </p>
+    </div>
+    <hr>
+    <footer>
+      <p>
+        References: 
+      </p>
+      <ul>
+        <li><a href ="https://medium.com/javarevisited/70-years-of-hello-world-with-50-programming-languages-2400de893a97">https://medium.com/javarevisited/70-years-of-hello-world-with-50-programming-languages-2400de893a97</a>
+        </li>
+        <li><a href ="https://news.codecademy.com/programming-languages/">https://news.codecademy.com/programming-languages/</a>
+        </li>
+      </ul>
+      <p><small><%=cat%></small></p>
+    </footer>
+  </body>
 </html>

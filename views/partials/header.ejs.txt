@@ -1,30 +1,14 @@
-<form action="/userSubmit/search">
-  <div class="searchBar">
-    <input type="text" name="search">
-    <button id="searchButton">Search</button>
-  </div>
-</form>
-
-<div class="userImg d-flex justify-content-center align-items-center w-50">
-  
-  <form id="usernameForm" method="post" action="/partials/login">
-    
-    <a href="#" onclick="document.getElementById('usernameForm').submit(); return false;" userId=<%=(typeof userId != "undefined") ? userId:-1%>>
-      <input type="hidden" name="userId"
-      <% if(typeof userId != "undefined") { %>
-        value=<%=userId%>>
-      <% } else { %>
-        value=-1>
-      <% } %>
-    <!--<img id="userIcon" src="/img/BLANK_PROFILE.png" alt="userImage">-->
-      <%=(typeof name != "undefined") ? name:"Login"%>
-    <!--Username/Login-->
-    </a>
-  </form>
-
-  <% if(typeof userId != "undefined") { %>
-    <a id="logoutA" href="/logout" userId=<%=(typeof userId != "undefined") ? userId:-1%>>
-      (Logout)
-    </a> 
-  <% } %>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Programming Languages</title>
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Programming Languages
+      </h1>
+    </header>

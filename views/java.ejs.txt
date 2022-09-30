@@ -1,0 +1,46 @@
+    <%- include('partials/header.ejs') %>
+    <hr>
+    <nav>
+      <a href = "https://HW4.devindelaney.repl.co/"><b>Home</b></a>
+      <a id="currentTab" href = "https://HW4.devindelaney.repl.co/java">Java</a>
+      <a href = "https://HW4.devindelaney.repl.co/python">Python</a>
+      <a href = "https://HW4.devindelaney.repl.co/swift">Swift</a>
+    </nav>
+    <hr>
+    <div class="mainInfo">
+      <img class="inTextImg" src="imgs/java.png" alt="Programming languages word map">
+      <p id="infoText">
+        Java is developed by Oracle as a general programming language. It is commonly used for back-end server development and android development. Java is made to run on any device with a java virtual machine downloaded. <s>Java is the most popular programming language.</s>
+      </p>
+      <div class="circles">
+        <div class="round">
+          <p>
+            Multi-
+            threaded
+          </p>
+        </div>
+        <div class="round center">
+          <p>
+            Memory Managment
+          </p>
+        </div>
+        <div class="round">
+          <p>
+            Platform Independant
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>
+        References: 
+      </p>
+      <ul>
+        <li><a href ="https://blogs.oracle.com/java/java-in-2020">https://blogs.oracle.com/java/java-in-2020</a></li>
+        <li><a href ="https://en.wikipedia.org/wiki/Java_(programming_language)">https://en.wikipedia.org/wiki/Java_(programming_language)</a></li>
+      </ul>
+      <p><small><%=cat%></small></p>
+    </footer>
+  </body>
+</html>
