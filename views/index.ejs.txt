@@ -1,0 +1,30 @@
+<%- include("partials/head") %>
+
+
+<body>
+  <%var selected = 0;%>
+  <!--Make the heading same line -->
+  <div>
+    <header>
+      <div class="mainHeader">
+        <div class="pageTitle">
+          <h1>Home page</h1>
+        </div>
+
+        <%- include("partials/header") %>
+
+
+      </div>
+    </header>
+    <%- include("partials/nav") %>
+  </div>
+
+  <main>
+
+   </main>
+
+  <%- include("partials/footer")%>
+
+  <script src="/js/homeRecipeDisplay.js"></script>
+</body>
+</html>

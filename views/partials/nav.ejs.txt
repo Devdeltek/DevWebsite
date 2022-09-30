@@ -1,0 +1,13 @@
+<nav>
+  <div id="navDiv">
+    <!-- <a id="indexPage" href="https://lab7.bkondo.repl.co/">Home</a> -->
+    
+    <a href = "/">Home</a>
+    <a href = "/blog/blog-home">Blog Home</a>
+    <% if((typeof admin != "undefined") && (admin == true)) { %>
+      <!-- admin: session variable? updated at time of login -->
+      <a href = "/admin/approve-list">Approve Recipes</a>
+    <% } %>
+    <!-- <a href = "/admin/approve-list">Approve Recipes</a> -->
+  </div>
+</nav>

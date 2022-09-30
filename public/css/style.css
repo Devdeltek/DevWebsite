@@ -1,0 +1,137 @@
+body{
+  /* text-align: center; */
+  background-color: #FAEBD7;
+}
+
+main {
+  width:80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+div.main {
+  width:80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+aside.notes {
+  width:80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed #A0522D;
+}
+
+/* ===== partials/header CSS ===== */
+.mainHeader{
+  display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color:burlywood;
+  padding: 5px;
+}
+
+.mainHeader h1 {
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.pageTitle{
+  grid-column:1/3;
+}
+
+.mainHeader form {
+  grid-column:3/4;
+  height: 40px;
+  width: 250px;
+  align-self: center;
+  justify-self: center;
+}
+
+.searchBar{
+  display:flex;
+}
+
+#searchButton{
+  height: 40px;
+  width: 65px;
+}
+
+.userImg {
+  grid-column:4/4;
+  /* margin: 0 auto; */
+  align-self: center;
+  justify-self: center;
+}
+
+#usernameForm{
+  grid-column:4/4;
+  /* margin: 0 auto; */
+  align-self: center;
+  justify-self: center;
+}
+
+#logoutA{
+  font-size: x-small;
+}
+
+/* ===== nav css ===== */
+nav {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  background-color: #A0522D;
+  padding:10px;
+  margin:0px;
+}
+
+nav a {
+  color: white;
+  padding:5px;
+}
+
+nav a:hover {
+  color: white;
+  background-color:tan;
+}
+
+#navDiv{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+/* ===== footer css ===== */
+footer {
+  text-align: center;
+  color: white;
+  background-color: #112E51; 
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+#footerDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#footerDisclaimer {
+  font-size: small;
+  padding: 10px;
+}
+
+#imgDevLogo {
+  width: 240px;
+  margin: 10px;
+}
+
+#footerBuffer {
+  height: 125px;
+  /* background-color: green; */
+}
+
