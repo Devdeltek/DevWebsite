@@ -1,8 +1,0 @@
-<hr>
-    <nav>
-      <a id="currentTab" href = "https://HW4.devindelaney.repl.co/"><b>Home</b></a>
-      <a href = "https://HW4.devindelaney.repl.co/java">Java</a>
-      <a href = "https://HW4.devindelaney.repl.co/python">Python</a>
-      <a href = "https://HW4.devindelaney.repl.co/swift">Swift</a>
-    </nav>
-    <hr>
