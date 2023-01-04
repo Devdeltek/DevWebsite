@@ -1,37 +1,60 @@
 export const projects = [
   {
-    title: "Personal Projects",
-    subtitle: "Projects worked on on my own",
-    description: "Assignments from a graphics programming class. They were all done in javascript and are visual so I decided to host them here.",
-    image: "./src/images/PersonalProg.png",
+    title: "React Reserve",
+    subtitle: "MERN Stack",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-1.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Class work",
-    subtitle: "Breadboard guitar pedals",
-    description: "In oreder to learn more about making guitar pedals, I have started making guitar pedals.",
-    image: "./cat_caviar.jpg",
-    link: "https://reedbarger.com",
+    title: "React Tracks",
+    subtitle: "React and Python",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-2.gif",
+    link: "https://reactbootcamp.com",
   },
   {
-    title: "Graphics Programming",
-    subtitle: "Track stats",
-    description: "A simple python project to track stats in an RPG game. My brother made a similar one that I wanted to try and improve upon.",
+    title: "DevChat",
+    subtitle: "React and Firebase",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+    link: "https://reactbootcamp.com",
   },
   {
-    title: "Guitar Pedals",
-    subtitle: "Smaller and unfinished projects",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "Epic Todo App",
+    subtitle: "React Hooks",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+    link: "https://reactbootcamp.com",
+  },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Jesse Hicks",
+    company: "Zoozle",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    image: "https://randomuser.me/api/portraits/men/94.jpg",
+    name: "Ruben Alvarez",
+    company: "Dooble.io",
   },
 ];
 
 export const skills = [
-];
-
-export const testimonials = [
-
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node",
+  "GraphQL",
+  "Material UI",
 ];
