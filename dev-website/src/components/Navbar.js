@@ -7,18 +7,18 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-black hover:text-blue-400 mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
-            Reed Barger
+            Devin Delaney
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l text-gray-800 md:border-gray-800	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-blue-400">
-            Past Work
+            Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-blue-400">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-blue-400">
-            Testimonials
+          <a href="#contact" className="mr-5 hover:text-blue-400">
+            Contact Info
           </a>
         </nav>
         <a
