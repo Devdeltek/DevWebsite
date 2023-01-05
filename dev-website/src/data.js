@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Tuning application",
-    subtitle: "c++",
+    title: "This website",
+    subtitle: "React and Node js",
     description:
-      "Program that takes in an audio signal in real time and outputs a note. Eventually want to move it to an arduino to make a tuning pedal",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Followed a guide to make this website. Currently working to improve/expand the site, guide is linked.",
+    image: "./project-1.png",
+    link: "https://www.freecodecamp.org/news/build-portfolio-website-react/",
   },
   {
     title: "Test Grader",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Program that will output a grade for a multiple choice test when given a picture of the test and the answer key. Currently only works to crop image of a page to the page itself and identify answer bubbles.",
     image: "./project-2.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/johnmihal/Scan-Grade",
   },
   {
     title: "Graphics Programming",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "More visual projects made using webgl and javascript. Working on getting the projects to display neatly on a webpage I can link to.",
     image: "./project-3.png",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Devdeltek/DevinDelaneyCST325",
   },
   {
     title: "Distortion Guitar Pedal",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "A remake of a Boss DS1 guitar pedal made by following the guide linked. First put together on a breadboard following the circuit diagram in the guide. Attempted to move to a perfboard but messed up the soldering somewhere. Work in progress.",
     image: "./project-4.jpg",
-    link: "https://reactbootcamp.com",
+    link: "https://www.electrosmash.com/boss-ds1-analysis",
   },
 ];
 
