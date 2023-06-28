@@ -1,27 +1,19 @@
 export const projects = [
   {
-    title: "This website",
-    subtitle: "React and Node js",
+    title: "RPG Stat Tracker",
+    subtitle: "Python, MatPlotLib, Pandas, Tkinter",
     description:
-      "Followed a guide to make this website. Currently working to improve/expand the site, guide is linked.",
-    image: "./project-1.png",
-    link: "https://www.freecodecamp.org/news/build-portfolio-website-react/",
-  },
-  {
-    title: "Test Grader",
-    subtitle: "Python",
-    description:
-      "Program that will output a grade for a multiple choice test when given a picture of the test and the answer key. Currently only works to crop image of a page to the page itself and identify answer bubbles.",
-    image: "./project-2.png",
-    link: "https://github.com/johnmihal/Scan-Grade",
+      "A simple program that is used to track stats for table top RPGs such as DND and Pathfinder. It has a gui using Tkinter, stores and processes data with Pandas, and displays the data using MatPlotLib. Click to see more info.",
+    image: "./stattrackerMainMenu.png",
+    link: "https://github.com/Devdeltek/rpgStatsTracker",
   },
   {
     title: "Graphics Programming",
     subtitle: "Webgl and Javascript",
     description:
-      "More visual projects made using webgl and javascript. Working on getting the projects to display neatly on a webpage I can link to.",
-    image: "./project-3.png",
-    link: "https://github.com/Devdeltek/DevinDelaneyCST325",
+      "A simple Ray tracer I wrote for a graphics programming class. Recently I translated it from fully javascript to webGL shader code and gave it a more cartoony look. Click to see more info.",
+    image: "./RaytracePractice.gif",
+    link: "https://www.shadertoy.com/view/DsBcRD",
   },
   {
     title: "Distortion Guitar Pedal",
@@ -30,6 +22,14 @@ export const projects = [
       "A remake of a Boss DS1 guitar pedal made by following the guide linked. First put together on a breadboard following the circuit diagram in the guide. Attempted to move to a perfboard but messed up the soldering somewhere. Work in progress.",
     image: "./project-4.jpg",
     link: "https://www.electrosmash.com/boss-ds1-analysis",
+  },
+  {
+    title: "This website",
+    subtitle: "React and Node js",
+    description:
+      "Followed a guide to make this website. Currently working to improve/expand the site, guide is linked.",
+    image: "./project-1.png",
+    link: "https://www.freecodecamp.org/news/build-portfolio-website-react/",
   },
 ];
 
